@@ -1,0 +1,132 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.watch {
+    margin-bottom: 20px;
+}
+
+.outer-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.inner-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button.play {
+    background-color: pink;
+    color: #fff;
+    border-style:dashed;
+    border-color: black;
+}
+
+.button.reset {
+    background-color: pink;
+    color: #fff;
+    border-style:dashed;
+    border-color: black;
+}
+
+.button.lap {
+    background-color: pink;
+    color: #fff;
+    border-style:dashed;
+    border-color: black;
+}
+
+.button.hidden {
+    display: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.lap-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number, .time-stamp {
+    font-size: 1em;
+}
+
+.lap-clear-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lap-clear-button.hidden {
+    display: none;
+}
+
+.lap-clear-button:hover {
+    opacity: 0.8;
+}

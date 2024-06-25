@@ -1,0 +1,48 @@
+<!DOCTYPE html>                                                                                                                                                                                                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>My Tic Tac Toe.com</li>
+        </ul>
+    </nav>
+
+    <div class="gameInfo">
+        <h1>Welcome to Tic Tac Toe Game</h1>
+        <div>
+            <button id="resetBtn" onclick="resetGame()">NewGame</button>
+        </div>
+        <div class="imgbox">
+          <img src="excited.jpg" alt="" width="150">
+        </div>
+    </div>
+            <div class="box bt-0 br-0"><span class="boxtext"></span></div>
+    <h2 style="margin-left: 40%;">Let's Play war of X and O's</h2>
+  <div id="board" class="container">
+    <div class="row">
+      <div id="cell0" class="cell" onclick="cellClicked(0)"></div>
+      <div id="cell1" class="cell" onclick="cellClicked(1)"></div>
+      <div id="cell2" class="cell" onclick="cellClicked(2)"></div>
+    </div>
+    <div class="row">
+      <div id="cell3" class="cell" onclick="cellClicked(3)"></div>
+      <div id="cell4" class="cell" onclick="cellClicked(4)"></div>
+      <div id="cell5" class="cell" onclick="cellClicked(5)"></div>
+    </div>
+    <div class="row">
+      <div id="cell6" class="cell" onclick="cellClicked(6)"></div>
+      <div id="cell7" class="cell" onclick="cellClicked(7)"></div>
+      <div id="cell8" class="cell" onclick="cellClicked(8)"></div>
+    </div>
+  </div>
+  <div id="status" class="container"></div>
+
+  <script src="tictactoe.js"></script>
+</body>
+</html>

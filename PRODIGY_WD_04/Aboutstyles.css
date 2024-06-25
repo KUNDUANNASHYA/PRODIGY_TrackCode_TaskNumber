@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4deef;
+}
+
+header {
+    background-color: #351d48;
+    color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.about-content p {
+    display: flex;
+    color: #555;
+    align-items: center;
+    font-size: 1em;
+    line-height: 1;
+}
